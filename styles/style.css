@@ -16,10 +16,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .header{
+    max-width: 100%;
+    margin: 0 auto;
+} */
 .navbar , .fitness-container{
     max-width: 1440px;
     margin: 0 auto;
-    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* padding-left: 190px;
+    padding-right: 214px; */
+}
+.bg-header{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 p{
     font-size: 0.875rem;
@@ -83,7 +91,11 @@ main > section{
 
 
 
-
+/* .header{
+    max-width: 1920px;
+    margin: 0 auto;
+    
+} */
 
 
 
@@ -92,6 +104,7 @@ main > section{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 69px;
 }
 .nav-item{
@@ -129,16 +142,21 @@ main > section{
     font-size: 2.25rem;
     font-weight: 900;
     font-style: italic;
+    /* padding-left: 200px; */
 }
 /* fitness related style */
 .fitness-container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 167px;
 }
 .fitness-sub-container1{
     max-width: 600px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+}
+.fitness-sub-container2{
+    max-width: 349px;
 }
 .fitness-title{
     font-size: 4.875rem;
@@ -245,6 +263,44 @@ main > section{
         margin-bottom: 34px;
 
     }
+        /* BMI related style */
+        .BMI{
+            margin: 88px auto;
+            max-width: 670px;
+        }
+        .bmi-title {
+            font-size: 3rem;
+        }
+        .bmi-description{
+            margin-top: 14px;
+        }
+
+
+            /* team related style */
+            .table-chart{
+                max-width:310px;
+                /* margin: 52px auto; */
+                margin-top: 52px;
+                height: 216px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-collapse: collapse;
+                text-align: center;
+            }
+            .chart-title{
+                font-size: 1.75rem;
+            }
+            .table-data,.table-head{
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 0.875rem;
+                font-weight: 400;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+            }
+            .table-head{
+                color: white;
+                font-size: 1rem;
+                font-weight: 500;
+                padding: 15px 20px;
+            }
 
 
         /* team related style */
@@ -284,9 +340,15 @@ main > section{
             padding: 72px 200px;
             display: grid;
             grid-template-columns: repeat(3,1fr);
+            justify-items: center;
             align-items: center;
-            gap: 100px;
-            }
+            gap: 50px;
+            justify-items: center;
+        }
+        .foot-container{
+            max-width: 181px;
+            margin: 0 auto;
+        }
         .foot-title{
             font-size: 4.375rem;
             font-weight: 900;
