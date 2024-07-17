@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+
+/* shared related style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar , .fitness-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+p{
+    font-size: 0.875rem;
+        font-weight: 400px;
+        color: rgba(255, 255, 255, 0.5);
+}
+main > section{
+    max-width: 1044px;
+    margin: 0 auto;
+}
+.white-color{
+    color: white;
+}
+.primary-fff-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+.all-body-bg-color{
+    background-color:black;
+}
+.bg-primary{
+    background-color: rgba(230, 83, 60, 1);
+}
+.nav-color{
+    color: rgba(230, 83, 60, 1);
+}
+.primary-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    /* color: white; */
+    padding: 16px 0;
+    background-color: rgba(230, 83, 60, 1);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+    /* Resolve this */
+.secondary-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    /* color: white; */
+    padding: 16px 0;
+    /* background-color: rgba(230, 83, 60, 1); */
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+/* navbar related style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 69px;
+}
+.nav-item{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 12px 20px;
+    align-items: center;
+    
+
+}
+.nav-image{
+    width: 100%;
+}
+.nav-item , .nav-link{
+    list-style: none;
+    gap: 47px;
+    
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: white;
+    
+}
+#home-bg-color{
+    /* width: 92px;
+    height: 38px; */
+    border-radius: 46px;
+    background-color: rgba(230, 83, 60, 1);
+    padding: 8px 20px;
+}
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 900;
+    font-style: italic;
+}
+/* fitness related style */
+.fitness-container{
+    display: flex;
+    align-items: center;
+    gap: 167px;
+}
+.fitness-sub-container1{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.fitness-title{
+    font-size: 4.875rem;
+    font-weight: 400;
+
+}
+
+
+
+
+
+        /* Resolve this */
+.span1{
+    font-style:italic;
+}
+
+
+
+
+
+.fitness-description{
+    /* font-size: 1rem;
+    font-weight: 400; */
+    margin: 28px 0;
+}
+
+
+
+
+/* change habit style */
+.change-habit{
+    margin: 100px auto;
+}
+.habit-example{
+    max-width: 231px;
+    text-align: center;
+}
+.example-image{
+    width: 100%;
+}
+.habit-title{
+    font-size: 3rem;
+    text-align: center;
+
+}
+.habit-description {
+    /* font-size: 0.875rem;
+    font-weight: 400; */
+    text-align: center;
+    margin-top: 14px;
+}
+.habit-container{
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.example-image{
+    border-radius: 100px;
+    max-width: 180px;
+    margin: 0 auto;
+}
+.example-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+/* .example-description{
+    font-size: 0.875rem;
+    font-weight: 400;
+} */
+
+
+    /* run related section style */
+    .run{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        background-color: rgba(34, 34, 34, 1);
+        gap: 146px;
+        border-radius: 18px;
+
+
+    }
+    .hard-work-image{
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 18px;
+        
+    }
+    .run-container{
+        padding: 35px 35px;
+        
+    }
+    .run-title{
+        font-size: 3rem;
+
+    }
+    .run-description {
+        /* font-size: 0.875rem;
+        font-weight: 400px; */
+        margin-top: 14px;
+        margin-bottom: 34px;
+
+    }
+
+
+        /* team related style */
+        .team{
+            margin: 88px auto;
+        }
+        .team-title{
+            font-size: 3rem;
+            text-align: center;
+        }
+        .team-description{
+            text-align: center;
+            margin-top: 14px;
+        }
+        .team-container{
+            margin-top: 58px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+            background-color: rgba(34, 34, 34, 1);
+            padding: 20px;
+            gap: 20px;
+            border-radius: 18px;
+        }
+        .team-image{
+            width: 100%;
+            margin: 0 auto;
+            height: 100%;
+            border-radius: 18px;
+        }
+
+            /* footer related style */
+        .footer-section{
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: rgba(34, 34, 34, 1);
+            padding: 72px 200px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+            gap: 100px;
+            }
+        .foot-title{
+            font-size: 4.375rem;
+            font-weight: 900;
+            font-style: italic;
+        }
+        .foot-description{
+            margin-top: 20px;
+        }
+        .foot-title2{
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        .foot-subtitle{
+            font-size: 1,42rem;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 20px;
+        }
+        
