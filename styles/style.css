@@ -275,11 +275,42 @@ main > section{
             margin-top: 14px;
         }
 
+        /* BmI chart and calculate related style */
+        .bmi-chart-calculate{
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            gap: 175px;
+            padding: 50px 189px;
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: rgba(34, 34, 34, 1);
+            
+        }
+        .bmi-container{
+            max-width: 1440px;
+            margin: 0 auto;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        /* #speacial-bmi-id{
+            width: 100%;
+            margin: 0 auto;
+            background-color: rgba(34, 34, 34, 1);
+        } */
+        /* .bmi-chart{
+            max-width: 310px;
+            margin: 0 auto;
+        } */
+        /* .bmi-calculate{
+            max-width: 577px;
+            margin: 0 auto;
+        } */
 
-            /* team related style */
+
+            /* table related style */
             .table-chart{
                 max-width:310px;
-                /* margin: 52px auto; */
                 margin-top: 52px;
                 height: 216px;
                 border: 1px solid rgba(255, 255, 255, 0.1);
@@ -302,6 +333,29 @@ main > section{
                 padding: 15px 20px;
             }
 
+             /* BMI calculate related style */
+            /* .bmi-calculate{
+                max-width: 577px;
+            } */
+            .bmi-calculate{
+                max-width: 577px;
+                margin: 0 auto;
+            }
+            .calculate-title{
+                font-size: 1.75rem;
+            }
+            .calculate-description{
+                margin-top: 14px;
+                margin-bottom: 34px;
+            }
+            .input-container{
+                display: grid;
+                grid-template-columns: repeat(2,1fr) 2fr;
+                gap: 12px;
+                border-radius: 8px;
+                color: rgba(255, 255, 255, 0.6);
+                padding: 13px 0;
+            }
 
         /* team related style */
         .team{
